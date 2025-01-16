@@ -1,0 +1,147 @@
+#+TITLE: DTBook Sample Book
+
+* About
+This project aims to provide a comprehensive sample EPUB book that
+contains all elements from the [[https://en.wikipedia.org/wiki/DTBook][DTBook XML]] schema in order to
+illustrate the usage of these elements.
+
+* DTBook Files
+The =dtbook-files/= directory contains several XML files adhering to
+the DTBook schema. These files serve as examples for different
+elements and structures found in DTBooks.
+
+* EPUB File
+The =sample-epub.epub= file is a EPUB book that incorporates all
+elements from the DTBook schema. This file can be used as a reference
+or starting point for creating accessible EPUB books.
+
+* Elements [25/25]
+- [X] Images
+  - [X] ~img~
+- [X] Imagegroup
+  - [X] ~imggroup~
+  - [X] ~caption~
+- [X] Citation
+  - [X] ~cite~
+- [X] Abbreviation
+  - [X] ~abbr~
+- [X] Acronym
+  - [X] ~acronym~
+- [X] Pagenum
+  - [X] ~pagenum~
+- [X] Prodnote
+  - [X] ~prodnote~
+- [X] Sidebar
+  - [X] ~sidebar~
+- [X] Notes
+  - [X] ~note~
+  - [X] ~noteref~
+- [X] Annotation
+  - [X] ~annotation~
+  - [X] ~annoref~
+- [X] Epigraph
+  - [X] ~epigraph~
+- [X] Byline
+  - [X] ~byline~
+- [X] Dateline
+  - [X] ~dateline~
+- [X] Word
+  - [X] ~w~
+- [X] Link
+  - [X] ~a~
+- [X] Inline
+  - [X] ~em~
+  - [X] ~strong~
+  - [X] ~dfn~
+  - [X] ~kbd~
+  - [X] ~code~
+- [X] Sample
+  - [X] ~samp~
+- [X] List
+  - [X] ~list~
+    - [X] ~pl~
+    - [X] ~ol~
+    - [X] ~ul~
+  - [X] ~li~
+  - [X] ~dl~
+    - [X] ~dt~
+    - [X] ~dd~
+- [X] Quotation
+  - [X] ~blockquote~
+  - [X] ~q~
+- [X] Poem
+  - [X] ~poem~
+- [X] Lines
+  - [X] ~line~
+  - [X] ~linenum~
+  - [X] ~linegroup~
+- [X] Address
+  - [X] ~address~
+- [X] Table
+  - [X] ~table~
+  - [X] ~caption~
+  - [X] ~thead~
+  - [X] ~tbody~
+  - [X] ~tfoot~
+  - [X] ~tr~, ~th~, ~td~
+- [X] Headings
+  - [X] Tite
+  - [X] Author
+  - [X] ~doctitle~
+  - [X] ~docauthor~
+  - [X] ~bridgehead~
+  - [X] ~level1~ - ~level6~
+  - [X] ~h1~ - ~h6~
+- [X] Special
+  - [X] ~q~
+  - [X] ~sub~
+  - [X] ~sup~
+  - [X] ~span~
+  - [X] ~br~
+  - [X] ~bdo~
+
+* Structure Guidelines
+** Inline [16/16]
+- [X] Anchor
+- [X] Abbreviation
+- [X] Acronym
+- [X] Computer Code
+- [X] Defining Instance
+- [X] Emphasis
+- [X] Keyboard Input
+- [X] Line Break
+- [X] Page Number
+- [X] Producer’s Note
+- [X] Quotation
+- [X] Sample
+- [X] Sentence
+- [X] Span
+- [X] Subscript and Superscript
+- [X] Word
+** Block [16/16]
+- [X] Address
+- [X] Author
+- [X] Bridgehead
+- [X] Byline
+- [X] Computer Code
+- [X] Dateline
+- [X] Epigraph
+- [X] Keyboard Input
+- [X] Linegroup
+- [X] Lists
+- [X] Note
+- [X] Paragraph
+- [X] Producer’s Note
+- [X] Quotation
+- [X] Sample
+- [X] Sidebar
+
+
+* Contributing
+Contributions to this project are welcome. If you find any issues or
+have suggestions for improvement, please open an issue or submit a
+pull request.
+
+* License
+This work is licensed under [[https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1][Creative Commons Attribution-ShareAlike
+4.0 International]].
