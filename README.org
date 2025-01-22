@@ -1,4 +1,4 @@
-#+TITLE: DTBook Sample Book
+#+TITLE: DTBook and EPUB Sample Books
 
 * About
 This project aims to provide a comprehensive sample EPUB book that
