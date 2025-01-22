@@ -11,8 +11,8 @@ the DTBook schema. This file serves as examples for different elements
 and structures found in DTBooks.
 
 * EPUB Files
-The [[https://github.com/sbsdev/epub-sample-book/releases][releases]] contains EPUB books that incorporates all elements from
-the DTBook schema. There are three variants:
+The [[https://github.com/sbsdev/epub-sample-book/releases][latest release]] contains EPUB books that incorporates all elements
+from the DTBook schema. There are three variants:
 
 1) the default variant that is currently as it is currently produced by SBS
 2) a variant of the same book using the latest version of the CSS from
