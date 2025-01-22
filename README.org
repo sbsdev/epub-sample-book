@@ -5,17 +5,28 @@ This project aims to provide a comprehensive sample EPUB book that
 contains all elements from the [[https://en.wikipedia.org/wiki/DTBook][DTBook XML]] schema in order to
 illustrate the usage of these elements.
 
-* DTBook Files
-The =dtbook-files/= directory contains several XML files adhering to
-the DTBook schema. These files serve as examples for different
-elements and structures found in DTBooks.
+* DTBook File
+The [[https://github.com/sbsdev/epub-sample-book/tree/0.1/dtbook][dtbook]] directory contains an XML file [[https://github.com/sbsdev/epub-sample-book/blob/0.1/dtbook/defaultbook.xml][defaultbook.xml]] adhering to
+the DTBook schema. This file serves as examples for different elements
+and structures found in DTBooks.
 
-* EPUB File
-The =sample-epub.epub= file is a EPUB book that incorporates all
-elements from the DTBook schema. This file can be used as a reference
-or starting point for creating accessible EPUB books.
+* EPUB Files
+The [[https://github.com/sbsdev/epub-sample-book/releases][releases]] contains EPUB books that incorporates all elements from
+the DTBook schema. There are three variants:
 
-* Elements [25/25]
+1) the default variant that is currently as it is currently produced by SBS
+2) a variant of the same book using the latest version of the CSS from
+   the [[https://github.com/sbsdev/nordic-accessible-epub-css][Nordic accessible epub CSS]] project
+3) a variant of the same book using the CSS from the [[https://github.com/FriendsOfEpub/Blitz][Blitz]] project
+
+These files can be used as a reference or starting point for creating
+accessible EPUB books.
+
+* Elements
+All elements from the [[https://en.wikipedia.org/wiki/DTBook][DTBook XML]] schema and from the [[https://daisy.org/guidance/info-help/guidance-training/standards/daisy-structure-guidelines/][DAISY Structure
+Guidelines]] have been incorporated into the sample DTBook.
+
+* COMMENT Elements [25/25]
 - [X] Images
   - [X] ~img~
 - [X] Imagegroup
@@ -100,7 +111,7 @@ or starting point for creating accessible EPUB books.
   - [X] ~br~
   - [X] ~bdo~
 
-* Structure Guidelines
+* COMMENT Structure Guidelines
 ** Inline [16/16]
 - [X] Anchor
 - [X] Abbreviation
