@@ -17,7 +17,9 @@ from the DTBook schema. There are three variants:
 1) the default variant that is currently as it is currently produced by SBS
 2) a variant of the same book using the latest version of the CSS from
    the [[https://github.com/sbsdev/nordic-accessible-epub-css][Nordic accessible epub CSS]] project
-3) a variant of the same book using the CSS from the [[https://github.com/FriendsOfEpub/Blitz][Blitz]] project
+3) a variant of the same book using a CSS that is derived from
+   ~mtm.css~ of the [[https://github.com/sbsdev/nordic-accessible-epub-css][Nordic accessible epub CSS]] project and adapted to
+   the SBS requirements.
 
 These files can be used as a reference or starting point for creating
 accessible EPUB books.
